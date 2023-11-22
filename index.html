@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="registro(event)">
+        <input id="nombre" type="text" placeholder="nombre de pc">
+        <input id="error" type="text" placeholder="error">
+        <button>agregar</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>*</th>
+                <th>Nombre</th>
+                <th>Error</th>
+                <th>Resuelto</th>
+            </tr>
+        </thead>
+        <tbody id="tabla"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
